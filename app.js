@@ -12,7 +12,7 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
     const nota = document.getElementById('nota').value;
 
     const mensaje = {
-        content: `Nuevo pedido:\n**Nombre:** ${nombre}\n**Talla:** ${talla}\n**Género:** ${genero}\n**Entrega:** ${entrega}\n**Valor:** ${valor}\n**Instagram:** ${instagram}\n**Nota:** ${nota}`
+        content: `- - - - - - - Nuevo pedido - - - - - - -\n**Nombre:** ${nombre}\n**Talla:** ${talla}\n**Género:** ${genero}\n**Entrega:** ${entrega}\n**Valor:** ${valor}\n**Instagram:** ${instagram}\n**Nota:** ${nota}`
     };
 
 
